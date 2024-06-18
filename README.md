@@ -11,6 +11,7 @@
     https://github.com/OluOrija/react_portfolio/tree/main/expense-tracker-app
 
 4. **Recipe Finder**: Involves API integration, search functionality, and displaying detailed information.
+    https://github.com/OluOrija/react_portfolio/tree/feature/recipe-finder-app
 
 5. **Movie Database**: Fetching data from an API and displaying it with additional features like search and favorites.
 
