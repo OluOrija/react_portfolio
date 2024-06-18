@@ -20,6 +20,7 @@
     https://github.com/OluOrija/ePortfolio
 
 7. **Chat Application**: Real-time messaging using WebSockets or Firebase, involving handling user authentication and message synchronization.
+    https://github.com/OluOrija/react_portfolio/tree/feature/chat-app
 
 8. **Calendar App**: Implementing calendar functionality, event management, and reminders.
 
