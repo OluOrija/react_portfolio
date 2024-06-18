@@ -14,8 +14,10 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/recipe-finder-app
 
 5. **Movie Database**: Fetching data from an API and displaying it with additional features like search and favorites.
+    https://github.com/OluOrija/react_portfolio/tree/feature/movie-database-app
 
 6. **Portfolio Website**: Building a personal website with multiple pages and potentially integrating with external APIs or services.
+    https://github.com/OluOrija/ePortfolio
 
 7. **Chat Application**: Real-time messaging using WebSockets or Firebase, involving handling user authentication and message synchronization.
 
