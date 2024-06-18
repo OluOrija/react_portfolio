@@ -1,70 +1,76 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Expense Tracker App : 
+Requires basic CRUD operations, state management, and possibly charting for data visualization.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Expense Tracker App is a web application built with React and Material UI that allows users to track their expenses. The app provides functionalities for adding, deleting, and viewing expenses, along with a visual representation of expenses using charts. It also includes user authentication and persistent storage to enhance user experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Add Expense**: Users can add new expenses with a description and amount.
+- **Delete Expense**: Users can delete any existing expense.
+- **Total Expense Calculation**: The app calculates and displays the total amount of all expenses.
+- **Persistent Storage**: Expenses are stored in `localStorage`, so they persist across page reloads.
+- **User Authentication**: Basic user authentication system to log in and out.
+- **Expense Visualization**: Expenses are visualized using a bar chart.
+- **Responsive Design**: The app is responsive and works well on various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: A JavaScript library for building user interfaces.
+- **Material UI**: A popular React UI framework for designing components.
+- **Chart.js & react-chartjs-2**: Libraries for creating charts and visualizations.
+- **localStorage**: Web storage API for storing data on the client-side.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/expense-tracker.git
+   cd expense-tracker
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**:
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server**
+    npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+    src/
+    ├── components/
+    │   └── ExpensesChart.js
+    ├── contexts/
+    │   └── AuthContext.js
+    ├── pages/
+    │   ├── ExpenseTracker.js
+    │   └── Login.js
+    ├── App.js
+    ├── index.js
+    ├── theme.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+components/ExpensesChart.js: Chart component for visualizing expenses.
+contexts/AuthContext.js: Context for managing user authentication.
+pages/ExpenseTracker.js: Main page for tracking expenses.
+pages/Login.js: Login page for user authentication.
+App.js: Root component that integrates the theme, authentication provider, and main content.
+index.js: Entry point of the application.
+theme.js: Custom theme configuration for Material UI.
+Usage
+Login: On launching the app, you will be prompted to log in with a username.
+Add Expense: Enter a description and amount to add an expense.
+View Expenses: View the list of added expenses and the total amount.
+Delete Expense: Delete any expense by clicking the delete icon.
+View Chart: See a bar chart visualizing your expenses.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This `README.md` provides an overview of the project, features implemented, installation instructions, project structure, usage details, and licensing information. Make sure to update the repository URL and any other specific details as necessary.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## TODO
+Improve the authentication by integrating real authentication services like Firebase or Auth0 
