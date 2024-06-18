@@ -4,12 +4,15 @@ import { Container, TextField, Button, Paper, Typography } from '@mui/material';
 import { useAuth } from '../contexts/AuthContext';
 
 function Login() {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const { login } = useAuth();
 
-  const handleLogin = () => {
-    if (username) {
-      login(username);
+  const handleLogin = async () => {
+    try {
+      await login(email, password);
+    } catch (error) {
+      console.error("Failed to login", error);
     }
   };
 
@@ -21,9 +24,17 @@ function Login() {
         </Typography>
         <TextField
           fullWidth
-          label="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          label="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          margin="normal"
+        />
+        <TextField
+          fullWidth
+          label="Password"
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
           margin="normal"
         />
         <Button
