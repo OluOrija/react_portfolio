@@ -14,6 +14,7 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/recipe-finder-app
 
 5. **Movie Database**: Fetching data from an API and displaying it with additional features like search and favorites.
+    https://github.com/OluOrija/react_portfolio/tree/feature/movie-database-app
 
 6. **Portfolio Website**: Building a personal website with multiple pages and potentially integrating with external APIs or services.
 
