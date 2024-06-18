@@ -23,6 +23,7 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/chat-app
 
 8. **Calendar App**: Implementing calendar functionality, event management, and reminders.
+    https://github.com/OluOrija/react_portfolio/tree/feature/calendar-app
 
 9. **Quiz App**: Creating quizzes with multiple-choice questions and tracking user scores.
 
