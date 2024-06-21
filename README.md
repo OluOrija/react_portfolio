@@ -26,6 +26,7 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/calendar-app
 
 9. **Quiz App**: Creating quizzes with multiple-choice questions and tracking user scores.
+    https://github.com/OluOrija/react_portfolio/tree/feature/quiz-app
 
 10. **Music Player**: Building a simple music player with basic playback controls and playlist management.
 
