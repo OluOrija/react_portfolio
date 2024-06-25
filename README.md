@@ -27,8 +27,10 @@
 
 9. **Quiz App**: Creating quizzes with multiple-choice questions and tracking user scores.
     https://github.com/OluOrija/react_portfolio/tree/feature/quiz-app
+    ```Bugged```
 
 10. **Music Player**: Building a simple music player with basic playback controls and playlist management.
+    https://github.com/OluOrija/react_portfolio/tree/feature/music-player-app
 
 11. **Job Board**: Implementing features like job posting, searching, and filtering with a user-friendly interface.
 
