@@ -33,6 +33,7 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/music-player-app
 
 11. **Job Board**: Implementing features like job posting, searching, and filtering with a user-friendly interface.
+    https://github.com/OluOrija/react_portfolio/tree/feature/job-board-app
 
 12. **E-commerce Website**: Setting up product listings, a shopping cart, and checkout functionality with payment integration.
 
