@@ -1,9 +1,7 @@
+// src/components/CheckoutForm.js
 import React from 'react';
-import { loadStripe } from '@stripe/stripe-js';
-import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { Button } from '@mui/material';
-
-const stripePromise = loadStripe('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');
 
 const CheckoutForm = () => {
   const stripe = useStripe();
@@ -11,16 +9,21 @@ const CheckoutForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (!stripe || !elements) {
+      return;
+    }
+
+    const cardElement = elements.getElement(CardElement);
     const { error, paymentMethod } = await stripe.createPaymentMethod({
       type: 'card',
-      card: elements.getElement(CardElement),
+      card: cardElement,
     });
 
-    if (!error) {
-      console.log('Payment Method:', paymentMethod);
-      // Handle payment submission to your backend here
-    } else {
+    if (error) {
       console.error(error);
+    } else {
+      console.log('Payment Method:', paymentMethod);
+      // Send paymentMethod.id to your server for processing
     }
   };
 
@@ -34,10 +37,4 @@ const CheckoutForm = () => {
   );
 };
 
-const Checkout = () => (
-  <Elements stripe={stripePromise}>
-    <CheckoutForm />
-  </Elements>
-);
-
-export default Checkout;
+export default CheckoutForm;
