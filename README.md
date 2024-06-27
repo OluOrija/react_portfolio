@@ -39,6 +39,7 @@
     https://github.com/OluOrija/react_portfolio/tree/feature/ecommerce-website-app
 
 13. **Social Media Dashboard**: Integrating with multiple social media APIs, scheduling posts, and analyzing engagement metrics.
+    https://github.com/OluOrija/react_portfolio/tree/feature/social-media-dashboard-app
 
 14. **Stock Market Tracker**: Fetching and displaying real-time stock data with charting and analysis tools.
 
