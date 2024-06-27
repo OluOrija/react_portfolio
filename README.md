@@ -2,46 +2,47 @@
  21 react project from beginner to pro
 
 1. **To-Do List App**: A relatively simple project involving basic CRUD operations and state management.
-    https://github.com/OluOrija/react_portfolio/tree/main/todo-list-app
+    https://github.com/OluOrija/react_portfolio/blob/main/todo-list-app/README.md
 
 2. **Weather App**: Fetching and displaying data from an API with basic UI interactions.
-    https://github.com/OluOrija/react_portfolio/tree/main/weather-app
+    https://github.com/OluOrija/react_portfolio/blob/main/weather-app/README.md
 
 3. **Expense Tracker**: Requires basic CRUD operations, state management, and possibly charting for data visualization.
-    https://github.com/OluOrija/react_portfolio/tree/main/expense-tracker-app
+    https://github.com/OluOrija/react_portfolio/blob/main/expense-tracker-app/README.md
 
 4. **Recipe Finder**: Involves API integration, search functionality, and displaying detailed information.
-    https://github.com/OluOrija/react_portfolio/tree/feature/recipe-finder-app
+    https://github.com/OluOrija/react_portfolio/blob/main/recipe-finder-app/README.md
 
 5. **Movie Database**: Fetching data from an API and displaying it with additional features like search and favorites.
-    https://github.com/OluOrija/react_portfolio/tree/feature/movie-database-app
+    https://github.com/OluOrija/react_portfolio/blob/main/movie-database-app/README.md
 
 6. **Portfolio Website**: Building a personal website with multiple pages and potentially integrating with external APIs or services.
     https://github.com/OluOrija/ePortfolio
 
 7. **Chat Application**: Real-time messaging using WebSockets or Firebase, involving handling user authentication and message synchronization.
-    https://github.com/OluOrija/react_portfolio/tree/feature/chat-app
+    https://github.com/OluOrija/react_portfolio/blob/main/chat-app/README.md
 
 8. **Calendar App**: Implementing calendar functionality, event management, and reminders.
-    https://github.com/OluOrija/react_portfolio/tree/feature/calendar-app
+    https://github.com/OluOrija/react_portfolio/blob/main/calendar-app/README.md
 
 9. **Quiz App**: Creating quizzes with multiple-choice questions and tracking user scores.
-    https://github.com/OluOrija/react_portfolio/tree/feature/quiz-app
+    https://github.com/OluOrija/react_portfolio/blob/main/quiz-app/README.md
     ```Bugged```
 
 10. **Music Player**: Building a simple music player with basic playback controls and playlist management.
-    https://github.com/OluOrija/react_portfolio/tree/feature/music-player-app
+    https://github.com/OluOrija/react_portfolio/blob/main/music-player-app/README.md
 
 11. **Job Board**: Implementing features like job posting, searching, and filtering with a user-friendly interface.
-    https://github.com/OluOrija/react_portfolio/tree/feature/job-board-app
+    https://github.com/OluOrija/react_portfolio/blob/main/job-board-app/README.md
 
 12. **E-commerce Website**: Setting up product listings, a shopping cart, and checkout functionality with payment integration.
-    https://github.com/OluOrija/react_portfolio/tree/feature/ecommerce-website-app
+    https://github.com/OluOrija/react_portfolio/blob/main/ecommerce-website-app/README.md
 
 13. **Social Media Dashboard**: Integrating with multiple social media APIs, scheduling posts, and analyzing engagement metrics.
-    https://github.com/OluOrija/react_portfolio/tree/feature/social-media-dashboard-app
+    https://github.com/OluOrija/react_portfolio/blob/main/social-media-dashboard-app/README.md
 
 14. **Stock Market Tracker**: Fetching and displaying real-time stock data with charting and analysis tools.
+    https://github.com/OluOrija/react_portfolio/blob/main/stock-market-tracker-app/README.md
 
 15. **Language Learning App**: Creating language learning exercises with flashcards, quizzes, and pronunciation tools.
 

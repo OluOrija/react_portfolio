@@ -2,7 +2,7 @@
 
 ## Description
 
-Project12 is an e-commerce website application built with React and Material UI. It is designed to sell hair and cosmetic products targeting ethnically black women. The app includes product listings, a shopping cart, checkout functionality with payment integration, and a user-friendly interface.
+Project12 is an e-commerce website application built with React and Material UI. It is designed to sell hair and cosmetic products. The app includes product listings, a shopping cart, checkout functionality with payment integration, and a user-friendly interface.
 
 ## Features
 
@@ -10,7 +10,6 @@ Project12 is an e-commerce website application built with React and Material UI.
 - Shopping Cart: Add products to the cart and view cart contents.
 - Checkout: Secure payment integration using Stripe.
 - User Interface: Styled with Material UI components for a responsive and consistent look.
-
 
 ## Installation
 
