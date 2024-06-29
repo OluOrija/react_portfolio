@@ -1,6 +1,6 @@
 // src/components/RsvpButton.js
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 import { useRsvp } from '../context/RsvpContext';
 
 const RsvpButton = ({ eventId }) => {

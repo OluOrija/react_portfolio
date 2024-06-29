@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Container, CssBaseline, Grid, makeStyles, Paper, ThemeProvider, createMuiTheme } from '@material-ui/core';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Container, CssBaseline, Grid, Paper, ThemeProvider, createTheme } from '@mui/material';
 import { AuthProvider } from './context/AuthContext';
 import { EventProvider } from './context/EventContext';
 import PrivateRoute from './components/PrivateRoute';
@@ -10,7 +10,7 @@ import EventList from './components/EventList';
 import EventForm from './components/EventForm';
 import MyCalendar from './components/Calendar';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       main: '#1976d2',
@@ -21,26 +21,24 @@ const theme = createMuiTheme({
   },
 });
 
-const useStyles = makeStyles((theme) => ({
+const styles = {
   root: {
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
   },
   main: {
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
+    marginTop: '16px',
+    marginBottom: '16px',
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(2),
-    marginBottom: theme.spacing(2),
+    padding: '16px',
+    marginBottom: '16px',
   },
-}));
+};
 
 const App = () => {
-  const classes = useStyles();
-
   return (
     <ThemeProvider theme={theme}>
       <AuthProvider>
@@ -48,16 +46,16 @@ const App = () => {
           <Router>
             <CssBaseline />
             <Header />
-            <Container component="main" className={classes.main}>
-              <Grid container justify="center">
+            <Container component="main" style={styles.main}>
+              <Grid container justifyContent="center">
                 <Grid item xs={12} md={8} lg={6}>
-                  <Paper className={classes.paper}>
-                    <Switch>
-                      <Route exact path="/login" component={Login} />
-                      <PrivateRoute exact path="/" component={EventList} />
-                      <PrivateRoute exact path="/events/new" component={EventForm} />
-                      <PrivateRoute exact path="/calendar" component={MyCalendar} />
-                    </Switch>
+                  <Paper style={styles.paper}>
+                    <Routes>
+                      <Route path="/login" element={<Login />} />
+                      <Route path="/" element={<PrivateRoute><EventList /></PrivateRoute>} />
+                      <Route path="/events/new" element={<PrivateRoute><EventForm /></PrivateRoute>} />
+                      <Route path="/calendar" element={<PrivateRoute><MyCalendar /></PrivateRoute>} />
+                    </Routes>
                   </Paper>
                 </Grid>
               </Grid>

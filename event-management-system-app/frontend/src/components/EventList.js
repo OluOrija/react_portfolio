@@ -1,26 +1,44 @@
-// src/components/EventList.js
-import React from 'react';
-import { List, ListItem, ListItemText, Button, CircularProgress } from '@material-ui/core';
-import { useEvent } from '../context/EventContext';
+import React, { useContext, useEffect } from 'react';
+import { List, ListItem, ListItemText, Typography, Button, Grid, Paper } from '@mui/material';
+import { styled } from '@mui/system';
+import { EventProvider, useEvent } from '../context/EventContext';
+import { Link } from 'react-router-dom';
+
+const StyledPaper = styled(Paper)({
+  padding: '16px',
+  marginBottom: '16px',
+});
 
 const EventList = () => {
-  const { events, loading, deleteEvent } = useEvent();
+  const { events, getEvents } = useEvent();
 
-  if (loading) {
-    return <CircularProgress />;
-  }
+  useEffect(() => {
+    getEvents();
+  }, []);
 
   return (
-    <List>
-      {events.map((event) => (
-        <ListItem key={event._id}>
-          <ListItemText primary={event.title} secondary={event.date} />
-          <Button variant="outlined" color="secondary" onClick={() => deleteEvent(event._id)}>
-            Delete
-          </Button>
-        </ListItem>
-      ))}
-    </List>
+    <Grid container justifyContent="center">
+      <Grid item xs={12} md={8}>
+        <StyledPaper>
+          <Typography variant="h4" gutterBottom>
+            Event List
+          </Typography>
+          <List>
+            {events.map(event => (
+              <ListItem key={event.id}>
+                <ListItemText
+                  primary={event.name}
+                  secondary={event.date}
+                />
+                <Button component={Link} to={`/events/${event.id}`} variant="contained" color="primary">
+                  View
+                </Button>
+              </ListItem>
+            ))}
+          </List>
+        </StyledPaper>
+      </Grid>
+    </Grid>
   );
 };
 

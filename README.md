@@ -49,6 +49,7 @@
 
 16. **Event Management System**: Managing events, RSVPs, and calendar integration with user authentication.
     https://github.com/OluOrija/react_portfolio/blob/main/event-management-system-app/README.md
+    ```Bugged```
 
 17. **Travel Planner**: Integrating with travel APIs for booking accommodations, finding attractions, and creating itineraries.
 
