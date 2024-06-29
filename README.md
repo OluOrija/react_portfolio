@@ -1,5 +1,5 @@
 # react_portfolio
- 21 react project from beginner to pro
+ 19 react projects from beginner to pro
 
 1. **To-Do List App**: A relatively simple project involving basic CRUD operations and state management.
     https://github.com/OluOrija/react_portfolio/blob/main/todo-list-app/README.md
@@ -45,6 +45,7 @@
     https://github.com/OluOrija/react_portfolio/blob/main/stock-market-tracker-app/README.md
 
 15. **Language Learning App**: Creating language learning exercises with flashcards, quizzes, and pronunciation tools.
+    https://github.com/OluOrija/react_portfolio/blob/main/language-learning-app/README.md
 
 16. **Event Management System**: Managing events, RSVPs, and calendar integration with user authentication.
 
