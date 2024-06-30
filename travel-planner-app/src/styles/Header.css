@@ -1,0 +1,43 @@
+header {
+  background-color: #3f51b5;
+}
+
+header .MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .MuiTypography-root {
+  color: white;
+}
+
+header .MuiButtonBase-root {
+  color: white;
+}
+
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  

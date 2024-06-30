@@ -1,0 +1,39 @@
+.attractions-container {
+    margin-top: 2rem;
+  }
+  
+  .attractions-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .attractions-search input {
+    flex-grow: 1;
+  }
+  
+  .attractions-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .attractions-list-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .attractions-list-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .attractions-list-item button {
+    margin-left: 1rem;
+  }
+  
