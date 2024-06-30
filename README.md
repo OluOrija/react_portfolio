@@ -52,6 +52,8 @@
     ```Bugged```
 
 17. **Travel Planner**: Integrating with travel APIs for booking accommodations, finding attractions, and creating itineraries.
+    https://github.com/OluOrija/react_portfolio/blob/main/travel-planner-app/README.md
+    
 
 18. **Task Management System**: Implementing project management features like task lists, assignments, and progress tracking.
 

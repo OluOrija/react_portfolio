@@ -1,0 +1,39 @@
+.accommodation-container {
+    margin-top: 2rem;
+  }
+  
+  .accommodation-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .accommodation-search input {
+    flex-grow: 1;
+  }
+  
+  .accommodation-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .accommodation-list-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accommodation-list-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .accommodation-list-item button {
+    margin-left: 1rem;
+  }
+  
