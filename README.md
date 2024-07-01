@@ -1,5 +1,5 @@
 # react_portfolio
- 19 react projects from beginner to pro
+19 React projects from beginner to pro, built with the help of ChatGPT.
 
 1. **To-Do List App**: A relatively simple project involving basic CRUD operations and state management.
     ```bash
@@ -50,12 +50,12 @@
     https://github.com/OluOrija/react_portfolio/blob/main/music-player-app/README.md
     ```
 
-11. **Job Board**: Implementing features like job posting, searching, and filtering with a user-friendly interface.
+11. **Job Board**: Implementing features like job posting, searching, and filtering with a user-friendly interface. (Understanding how to manipulate response object and pass the response object between components, getting to grips with useState and useEffect)
     ```bash
     https://github.com/OluOrija/react_portfolio/blob/main/job-board-app/README.md
     ```
 
-12. **E-commerce Website**: Setting up product listings, a shopping cart, and checkout functionality with payment integration.
+12. **E-commerce Website**: Setting up product listings, a shopping cart, and checkout functionality with payment integration. (Payment Integration)
     ```bash
     https://github.com/OluOrija/react_portfolio/blob/main/ecommerce-website-app/README.md
     ```
@@ -79,7 +79,7 @@
     https://github.com/OluOrija/react_portfolio/blob/main/event-management-system-app/README.md
     ```Bugged```
 
-17. **Travel Planner**: Integrating with travel APIs for booking accommodations, finding attractions, and creating itineraries.
+17. **Travel Planner**: Integrating with travel APIs for booking accommodations, finding attractions, and creating itineraries. (Multiple API integrations using RapidAPI & Foursquare API)
     ```bash
     https://github.com/OluOrija/react_portfolio/blob/main/travel-planner-app/README.md
     ```
@@ -90,7 +90,7 @@
     https://github.com/OluOrija/react_portfolio/blob/main/task-management-system-app/README.md
     ```
 
-19. **Expense Sharing App**: Allowing groups of users to split expenses and track debts with user authentication and transaction management.
+19. **Expense Sharing App**: Allowing groups of users to split expenses and track debts with user authentication and transaction management. (With Firestore Database integration.)
     ```bash
     https://github.com/OluOrija/react_portfolio/blob/main/expense-sharing-app/README.md
     ```
